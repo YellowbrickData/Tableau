@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 
-<connector-plugin class='postgres_odbc' superclass='postgres' plugin-version='1.0.0' name='Yellowbrick' version='18.1' min-version-tableau='2019.4'>
+<connector-plugin class='yellowbrick_odbc' superclass='postgres' plugin-version='1.0.1' name='Yellowbrick' version='18.1' min-version-tableau='2019.4'>
   <vendor-information>
       <company name="Yellowbrick Data"/>
       <support-link url="http://support.yellowbrick.com"/>
       <driver-download-link url="http://www.yellowbrick.com"/>
   </vendor-information>
-  <connection-customization class="postgres_odbc" enabled="true" version="10.0">
+  <connection-customization class="yellowbrick_odbc" enabled="true" version="10.0">
     <vendor name="Yellowbrick"/>
     <driver name="Yellowbrick Tableau Driver"/>
     <customizations>

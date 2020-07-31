@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<tdr class='postgres_odbc'>
+<tdr class='yellowbrick_odbc'>
 	<connection-resolver>
     <connection-builder>
       <script file='connectionBuilder.js'/>

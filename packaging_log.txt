@@ -1,33 +1,33 @@
-2020-02-20 14:14:06,988 [DEBUG] | Starting Tableau Connector Packaging Version 0.0.1
-2020-02-20 14:14:06,988 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\manifest.xml
-2020-02-20 14:14:07,082 [DEBUG] | Parsing c:\tc\Yellowbrick-1.0.0\manifest.xml
-2020-02-20 14:14:07,082 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\connection-dialog.tcd
-2020-02-20 14:14:07,144 [DEBUG] | Parsing c:\tc\Yellowbrick-1.0.0\connection-dialog.tcd
-2020-02-20 14:14:07,144 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\connectionResolver.tdr
-2020-02-20 14:14:07,207 [DEBUG] | Parsing c:\tc\Yellowbrick-1.0.0\connectionResolver.tdr
-2020-02-20 14:14:07,207 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\dialect.tdd
-2020-02-20 14:14:07,363 [DEBUG] | Parsing c:\tc\Yellowbrick-1.0.0\dialect.tdd
-2020-02-20 14:14:07,363 [DEBUG] | No loc files.
-2020-02-20 14:14:07,363 [DEBUG] | Generated file list:
-2020-02-20 14:14:07,363 [DEBUG] | -- manifest.xml
-2020-02-20 14:14:07,363 [DEBUG] | -- connection-dialog.tcd
-2020-02-20 14:14:07,363 [DEBUG] | -- connectionResolver.tdr
-2020-02-20 14:14:07,363 [DEBUG] | -- connectionBuilder.js
-2020-02-20 14:14:07,363 [DEBUG] | -- dialect.tdd
-2020-02-20 14:14:07,363 [DEBUG] | Starting XSD validation...
-2020-02-20 14:14:07,363 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\manifest.xml
-2020-02-20 14:14:07,394 [DEBUG] | XML validation successful
-2020-02-20 14:14:07,394 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\connection-dialog.tcd
-2020-02-20 14:14:07,426 [DEBUG] | XML validation successful
-2020-02-20 14:14:07,426 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\connectionResolver.tdr
-2020-02-20 14:14:07,473 [DEBUG] | XML validation successful
-2020-02-20 14:14:07,473 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\dialect.tdd
-2020-02-20 14:14:07,582 [DEBUG] | XML validation successful
-2020-02-20 14:14:07,582 [DEBUG] | No XML violations found
-2020-02-20 14:14:07,582 [DEBUG] | 5 xml files parsed.
-2020-02-20 14:14:07,582 [INFO] | Validation succeeded.
-2020-02-20 14:14:08,755 [DEBUG] | Start signing postgres_odbc.taco from c:\tc\Yellowbrick-1.0.0 using JDK jarsigner
-2020-02-20 14:15:12,490 [INFO] | jar signed.
-2020-02-20 14:15:12,490 [INFO] | Warning: 
-2020-02-20 14:15:12,490 [INFO] | No -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2021-12-07) or after any future revocation date.
-2020-02-20 14:15:12,506 [INFO] | taco was signed as postgres_odbc.taco at c:\tc\Yellowbrick-1.0.0
+2020-03-06 13:28:10,584 [DEBUG] | Starting Tableau Connector Packaging Version 0.0.1
+2020-03-06 13:28:10,584 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\manifest.xml
+2020-03-06 13:28:10,686 [DEBUG] | Parsing c:\tc\Yellowbrick-1.0.0\manifest.xml
+2020-03-06 13:28:10,689 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\connection-dialog.tcd
+2020-03-06 13:28:10,755 [DEBUG] | Parsing c:\tc\Yellowbrick-1.0.0\connection-dialog.tcd
+2020-03-06 13:28:10,758 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\connectionResolver.tdr
+2020-03-06 13:28:10,825 [DEBUG] | Parsing c:\tc\Yellowbrick-1.0.0\connectionResolver.tdr
+2020-03-06 13:28:10,825 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\dialect.tdd
+2020-03-06 13:28:10,977 [DEBUG] | Parsing c:\tc\Yellowbrick-1.0.0\dialect.tdd
+2020-03-06 13:28:10,978 [DEBUG] | No loc files.
+2020-03-06 13:28:10,978 [DEBUG] | Generated file list:
+2020-03-06 13:28:10,978 [DEBUG] | -- manifest.xml
+2020-03-06 13:28:10,978 [DEBUG] | -- connection-dialog.tcd
+2020-03-06 13:28:10,978 [DEBUG] | -- connectionResolver.tdr
+2020-03-06 13:28:10,978 [DEBUG] | -- connectionBuilder.js
+2020-03-06 13:28:10,978 [DEBUG] | -- dialect.tdd
+2020-03-06 13:28:10,978 [DEBUG] | Starting XSD validation...
+2020-03-06 13:28:10,978 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\manifest.xml
+2020-03-06 13:28:11,013 [DEBUG] | XML validation successful
+2020-03-06 13:28:11,013 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\connection-dialog.tcd
+2020-03-06 13:28:11,045 [DEBUG] | XML validation successful
+2020-03-06 13:28:11,045 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\connectionResolver.tdr
+2020-03-06 13:28:11,086 [DEBUG] | XML validation successful
+2020-03-06 13:28:11,086 [DEBUG] | Validating c:\tc\Yellowbrick-1.0.0\dialect.tdd
+2020-03-06 13:28:11,207 [DEBUG] | XML validation successful
+2020-03-06 13:28:11,208 [DEBUG] | No XML violations found
+2020-03-06 13:28:11,208 [DEBUG] | 5 xml files parsed.
+2020-03-06 13:28:11,208 [INFO] | Validation succeeded.
+2020-03-06 13:28:12,097 [DEBUG] | Start signing postgres_odbc.taco from c:\tc\Yellowbrick-1.0.0 using JDK jarsigner
+2020-03-06 13:28:33,586 [INFO] | jar signed.
+2020-03-06 13:28:33,586 [INFO] | Warning: 
+2020-03-06 13:28:33,590 [INFO] | No -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2021-12-07) or after any future revocation date.
+2020-03-06 13:28:33,607 [INFO] | taco was signed as postgres_odbc.taco at c:\tc\Yellowbrick-1.0.0
