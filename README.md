@@ -1,5 +1,8 @@
 # Tableau Connector
 
+Releasing v2.0 connector for compatibility with Tableau v2020.4
+
+
 Yellowbrick Data customization of
 https://github.com/tableau/connector-plugin-sdk/tree/master/samples/plugins/postgres_odbc
 
