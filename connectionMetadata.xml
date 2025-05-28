@@ -1,0 +1,6 @@
+<connection-metadata>
+  <database enabled='true' label='Database'>
+    <field optional='true' default-value='Yellowbrick' />
+  </database>
+  <schema enabled='true' label="Schema" />
+</connection-metadata>

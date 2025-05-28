@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<tdr class='yellowbrick_odbc'>
+<tdr class='yellowbrick_jdbc'>
 	<connection-resolver>
     <connection-builder>
       <script file='connectionBuilder.js'/>
@@ -7,19 +7,18 @@
     <connection-normalizer>
       <required-attributes>
         <attribute-list>
-          <attr>class</attr>
           <attr>server</attr>
           <attr>port</attr>
           <attr>dbname</attr>
+          <attr>authentication</attr>
           <attr>username</attr>
           <attr>password</attr>
+          <attr>sslmode</attr>
         </attribute-list>
       </required-attributes>
     </connection-normalizer>
+    <connection-properties>
+      <script file='connectionProperties.js'/>
+    </connection-properties>
 	</connection-resolver>
-	<driver-resolver>
-    <driver-match >
-      <driver-name type='regex'>PostgreSQL Unicode*</driver-name>
-    </driver-match>
-  </driver-resolver>
 </tdr>
