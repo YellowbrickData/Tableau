@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dialect name='SimplePostgres'
-         class='yellowbrick_odbc'
+         class='yellowbrick_jdbc'
          base='PostgreSQL90Dialect'
          version='18.1'>
    <function-map>
     <function name='FLOAT' group='cast' return-type='real'>
       <formula>CAST(((EXTRACT(EPOCH FROM %1) / ( 60 * 60 * 24)) + (365 * 70 + 17)) AS BIGINT)</formula>
       <argument type='date' />
+    </function>
+    <function group='numeric' name='LOG' return-type='real'>
+      <formula><![CDATA[(CASE WHEN %1 > 0 AND %2 > 0 AND %2 <> 1 THEN LOG(CAST(%2 AS REAL),CAST(%1 AS REAL)) ELSE NULL END)]]></formula>
+      <argument type='real' />
+      <argument type='real' />
+    </function>
+    <function group='numeric' name='ROUND' return-type='real'>
+      <formula>ROUND(CAST(%1 AS REAL),CAST(%2 AS INTEGER))</formula>
+      <argument type='real' />
+      <argument type='real' />
+    </function>
+    <function group='string' name='SPACE' return-type='str'>
+      <formula>(CASE WHEN %1 &gt;= 0 THEN SUBSTR(REPEAT(&apos; &apos;, 1000),1,CAST(FLOOR(%1) AS INTEGER)) ELSE NULL END)</formula>
+      <argument type='real' />
+    </function>
+    <function group='numeric' name='POWER' return-type='real'>
+      <formula><![CDATA[(CASE WHEN %1 < 0 AND FLOOR(%2) <> %2 THEN NULL ELSE POWER(%1,%2) END)]]></formula>
+      <argument type='real' />
+      <argument type='real' />
     </function>
    </function-map>
  </dialect>

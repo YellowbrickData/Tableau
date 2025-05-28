@@ -1,25 +1,9 @@
-(function dsbuilder(attr)
-{
-    var params = {};
+(function dsbuilder(attr) {
+    var urlBuilder = "jdbc:postgresql://" + attr[connectionHelper.attributeServer] + ":" + attr[connectionHelper.attributePort] + "/" + attr[connectionHelper.attributeDatabase] + "?";
 
-    params["SERVER"] = attr["server"];
-    params["PORT"] = attr["port"];
-    params["DATABASE"] = attr["dbname"];
-    params["UID"] = attr["username"];
-    params["PWD"] = attr["password"];
-    params["BOOLSASCHAR"] = "0";
-    params["LFCONVERSION"] = "0";
-    params["UseDeclareFetch"] = "0";
-    params["Fetch"] = "24000";
-
-    var formattedParams = [];
-
-    formattedParams.push(connectionHelper.formatKeyValuePair(driverLocator.keywordDriver, driverLocator.locateDriver(attr)));
-
-    for (var key in params)
-    {
-        formattedParams.push(connectionHelper.formatKeyValuePair(key, params[key]));
-    }
-
-    return formattedParams;
+    return [urlBuilder];
 })
+
+
+
+
