@@ -16,7 +16,8 @@ You can download the Java 8 JDBC PostgreSQL driver here: [Here](https://jdbc.pos
 * On Windows, c:\Program Files\Tableau\Drivers
 
 Then copy the yellowbrick-x.x.x.taco file to:
-* On Windows, C:\Users\<userid>\Documents\My Tableau Repository\Connectors and * On Mac OSX,  ~/Documents/My Tableau Repository/Connectors
+* On Mac OSX,  ~/Documents/My Tableau Repository/Connectors
+* On Windows, c:\Users\<userid>\Documents\My Tableau Repository\Connectors 
 
 Once the JAR file and TACO file are copied to their respective directories, restart Tableau.
 
