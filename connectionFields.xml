@@ -20,5 +20,6 @@
     </boolean-options>
   </field>
 
+  <field name="v-fetchsize" label="Fetch Size" value-type="string" category="general" default-value="0" />
 </connection-fields>
 

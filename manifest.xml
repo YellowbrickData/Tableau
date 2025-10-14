@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<connector-plugin class="yellowbrick_jdbc" superclass="jdbc" plugin-version="5.0.0" name="Yellowbrick JDBC" version="18.1" min-version-tableau="2020.4">
+<connector-plugin class="yellowbrick_jdbc" superclass="jdbc" plugin-version="5.0.1" name="Yellowbrick JDBC" version="18.1" min-version-tableau="2020.4">
   <vendor-information>
       <company name="Yellowbrick Data" />
       <support-link url="https://support.yellowbrick.com" />
@@ -27,9 +27,9 @@
       <customization name="CAP_QUERY_ALLOW_PARTIAL_AGGREGATION" value="no" />
       <customization name="CAP_SUPPORTS_UNION" value="yes" />
       <customization name="CAP_QUERY_TIME_REQUIRES_CAST" value="yes" />
+      <customization name="CAP_JDBC_QUERY_DISABLE_AUTO_COMMIT" value="yes" />
       <customization name="CAP_JDBC_USE_ADAPTIVE_FETCH_SIZE" value="yes" />
-      <customization name="CAP_JDBC_BIND_DETECT_ALIAS_CASE_FOLDING" value="yes" />
-
+      <customization name="CAP_JDBC_BIND_DETECT_ALIAS_CASE_FOLDING" value="yes" />      
     </customizations>
   </connection-customization>
   <connection-fields file="connectionFields.xml" />
